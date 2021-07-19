@@ -109,3 +109,9 @@ npm install
 npm start
 ```
 Navigate to `http://localhost:3000`
+
+## Limitation
+
+- Currently no form of user authentication. This means that all lists are public and can be viewed/edited by any user.
+- A 'home' todo-list makes sense if this were entirely for personal use, but a better alternative would be a home page that requires a user to login to view their lists, or simply a welcome page would do as well.
+- Clicking a task deletes it entirely, but this can mean that a user may delete a task by mistake. Marking the task for deletion and not deleting it until the next time the page is rendered may be an option, or adding separate buttons for completing a task versus deleting a task.
